@@ -1,0 +1,44 @@
+.product {
+  color: #fff;
+}
+.product h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.product .title {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+  padding: 20px 0;
+}
+.product .form-food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product .food {
+  margin-top: 60px;
+  width: 20%;
+}
+.product .food img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product .food p {
+  text-align: center;
+  /* padding: 10px 0; */
+}
+.product .food button {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 20px;
+  text-transform: capitalize;
+}

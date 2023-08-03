@@ -1,0 +1,123 @@
+.home {
+  width: 100%;
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* background-image: url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); 
+    color: #fff;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 50px;
+}
+.bodyContainer {
+  width: 100%;
+  padding: 100px 0;
+}
+.bodyContainer .image {
+  display: flex;
+  justify-content: space-around;
+}
+.bodyContainer .image .item {
+  width: 15%;
+  transition: 0.35s;
+  cursor: pointer;
+}
+.item:hover > :not(:hover) {
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+.bodyContainer .image .item img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.headerContainer h3 {
+  /* padding: 0; */
+  font-size: 23px;
+  font-weight: lighter;
+  /* color: black; */
+  margin-bottom: 20px;
+}
+
+.headerContainer button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #539165;
+  height: 40px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.headerContainer button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+/* 
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+    .headerContainer h1,
+    .headerContainer p {
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  } */

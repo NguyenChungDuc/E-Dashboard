@@ -1,0 +1,20 @@
+.form-cart {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+  padding: 100px 50px;
+}
+.form-cart .background {
+  /* background-color: #fff; */
+}
+.pay-method {
+}
+.pay-method h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.pay-method h2 {
+  font-size: 20px;
+}

@@ -1,0 +1,9 @@
+.form-cart {
+  width: 100%;
+}
+.cart {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

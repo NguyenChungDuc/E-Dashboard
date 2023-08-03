@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.navbar {
+  padding: 20px 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.navbar .nav-ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar .nav-ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+.navbar .nav-ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .nav-ul li a:hover {
+  color: orange;
+  transition: all 0.5s;
+}

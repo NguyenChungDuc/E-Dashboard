@@ -1,0 +1,8 @@
+.addproduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-addproduct {
+  width: 100px;
+}

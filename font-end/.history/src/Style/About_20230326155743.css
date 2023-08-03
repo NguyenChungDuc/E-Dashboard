@@ -1,0 +1,35 @@
+.about {
+  text-align: center;
+  color: #fff;
+}
+.about h4 {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+  padding: 20px 0;
+}
+.about #about-us {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 45px;
+  font-weight: 900;
+  padding: 20px 0;
+}
+.about #about-us_secon {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 700;
+}
+.about .form-category img {
+  width: 20%;
+  height: 350px;
+  object-fit: cover;
+}
+.about .category .rate {
+  display: flex;
+}
+.about .category .rate .icon {
+  font-size: 55px;
+}

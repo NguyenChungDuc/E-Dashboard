@@ -1,0 +1,60 @@
+.product {
+  color: #fff;
+}
+.product h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.product .title {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+  padding: 20px 0;
+}
+
+.product .form {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+.product .form-food {
+  display: inline-block;
+  width: 25%;
+}
+.product .food {
+  margin: 60px 35px;
+  /* width: 20%; */
+  padding: 10px 0;
+  background-color: #143b36;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+.product .food img {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.product .food img:hover {
+  border: 1px solid orange;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.product .food p {
+  text-align: center;
+  /* padding: 10px 0; */
+}
+.product .food button {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 20px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  color: black;
+}
+.product .food button:hover {
+  cursor: pointer;
+  border: 2px solid blue;
+}

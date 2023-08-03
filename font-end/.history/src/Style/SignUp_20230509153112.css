@@ -1,0 +1,81 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-register {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  background: #fff;
+}
+.form-register h1 {
+  padding-top: 25px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+.form-register label {
+  opacity: 0.9;
+}
+.form-register .email {
+  /* margin: 25px 0; */
+}
+.form-register input {
+  width: 80%;
+  display: block;
+  border-bottom: 1px solid gray;
+  margin: 10px auto;
+}
+.form-register input:focus {
+  border-bottom: 1px solid blue;
+}
+.form-register p {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: right;
+  padding-right: 50px;
+  opacity: 0.8;
+}
+.form-register button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, cyan 10%, violet);
+}
+.form-register button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* 
+.form-register input {
+  width: 80%;
+  height: 40px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 0 10px;
+  z-index: 100;
+}
+.form-register input:focus {
+  border: 2px solid blue;
+}
+.form-register button {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.form-register button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid blue;
+
+} */

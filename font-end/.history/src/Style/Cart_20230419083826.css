@@ -1,0 +1,22 @@
+.cart {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #fff;
+}
+.cart p {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+  padding: 20px 0;
+  color: #fff;
+}
+.cart h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.cart table thead th {
+  margin: 30px 0;
+}

@@ -1,0 +1,41 @@
+.form-cart {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+  padding: 100px 50px;
+}
+.form-cart .background {
+  width: 600px;
+  height: 500px;
+  padding: 50px 0;
+  background-color: #fff;
+}
+.pay-method {
+  padding: 0 60px;
+}
+.pay-method h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.pay-method h2 {
+  font-size: 20px;
+}
+.pay-method input {
+}
+form label {
+  padding-left: 60px;
+  display: block;
+}
+form input {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+form button {
+  margin-top: 50px;
+  margin: 0 auto;
+  display: block;
+}

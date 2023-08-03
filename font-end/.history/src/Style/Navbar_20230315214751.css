@@ -1,0 +1,8 @@
+.navbar {
+}
+.navbar .nav-ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+}

@@ -1,0 +1,76 @@
+.footer {
+  /* margin-top: 400px; */
+  display: flex;
+  width: 100%;
+  background: #343334;
+  justify-content: space-around;
+  box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 50px 0;
+  color: #fff;
+}
+.footer .firstColum {
+  text-align: center;
+}
+.footer .firstColum .itemColum a {
+  margin: 20px 0;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+.footer .firstColum .itemColum a:hover {
+  color: orange;
+  transition: all 0.5s;
+}
+.footer .firstColum h3,
+.footer .seconColum h3,
+.footer .threeColum h3 {
+  text-transform: uppercase;
+}
+.footer .seconColum {
+  text-align: center;
+}
+.footer input {
+  margin-top: 40px;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer input:focus {
+  border: 2px solid blue;
+}
+.footer button {
+  padding: 8px 20px;
+  margin: 40px auto;
+  display: block;
+  border: 2px solid #fffbf5;
+  background: transparent;
+  border-radius: 20px;
+  color: #fff;
+}
+.footer button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid blue;
+}
+.footer .threeColum {
+  text-align: center;
+}
+.footer .threeColum h3 {
+  margin-bottom: 40px;
+}
+.footer .threeColum a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+.footer .threeColum .iconFooter {
+  margin-top: 15px;
+}
+.footer .threeColum .iconFooter .iconStyle {
+  font-size: 30px;
+  margin: 20px;
+}

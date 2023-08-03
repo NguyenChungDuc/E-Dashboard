@@ -1,0 +1,10 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
